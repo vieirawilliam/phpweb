@@ -1,24 +1,26 @@
-<?php
+<?php 
+$idadeCrianca=12;
+$idadeMaior=18;
+$idadeMelhor=65;
 
-$idadeCrianca = 12;
-$idadeMaior = 18;
-$idadeMelhor = 65;
+$qualASuaIdade=125;
 
-$qualASuaIdade = 125;
-
-if($qualASuaIdade < $idadeCrianca){
+if ($qualASuaIdade < $idadeCrianca) {
     echo "Crianca";
-}else if ($qualASuaIdade < $idadeMaior) {
-        echo "Adolecente"; 
-    }else if ($qualASuaIdade < $idadeMelhor) {
-        echo "Adulto"; 
-    }else {
-            echo "Idoso";
-        }
+}
+else if ($qualASuaIdade < $idadeMaior) {
+    echo "Adolecente";
+}
+else if ($qualASuaIdade < $idadeMelhor) {
+    echo "Adulto";
+}
+else {
+    echo "Idoso";
+}
 
 echo "<br>";
 
-echo ($qualASuaIdade < $idadeMaior)?"Menor idade":"Maior de idade";
+echo($qualASuaIdade < $idadeMaior) ? "Menor idade" : "Maior de idade";
 
 
 
