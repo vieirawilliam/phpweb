@@ -37,7 +37,7 @@ switch ($diaDaSemana) {
         echo "Sabado";
         break;
     default:
-        echo "Data invalidaaaa";
+        echo "Data invalidaaaaaaaaa";
         break;
 }
 
