@@ -1,6 +1,6 @@
 <?php
 
-function soma(int ...$valores):string{
+function soma(float ...$valores):float{
 
     return array_sum($valores);
 
