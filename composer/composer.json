@@ -1,0 +1,15 @@
+{
+    "name": "vieirawilliam/composer",
+    "description": "Aula de PHP 7",
+    "type": "project",
+    "authors": [
+        {
+            "name": "vieirawilliam",
+            "email": "willian_43@hotmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "monolog/monolog":"1.0.*"
+    }
+}
